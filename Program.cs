@@ -6,6 +6,7 @@ using HtmlAgilityPack;
 using System.Net;
 using System.Runtime.InteropServices;
 using FluentScheduler;
+using Newtonsoft.Json;
 
 namespace TestUrl
 {
@@ -13,8 +14,8 @@ namespace TestUrl
     {
         private static readonly AutoResetEvent _closingEvent = new AutoResetEvent(false);
         static string cookie = Extensions.GetEnvironmentVariable("cookie");
-        static string email = Extensions.GetEnvironmentVariable("email") ?? "344267112@qq.com";
-        static string passwd = Extensions.GetEnvironmentVariable("passwd") ?? "qw13211377";
+        static string email = Extensions.GetEnvironmentVariable("email");
+        static string passwd = Extensions.GetEnvironmentVariable("passwd");
         static RestClient client = new RestClient();
         const string Version = "1.0";
         static Dictionary<string, string> dic = new Dictionary<string, string>(){
