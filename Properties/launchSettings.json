@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "TestUrl": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "cookie": "cf_clearance=j8wQ0hx97XKSP.2CIaVflu5f8sYA6h35k_KxiNpScmI-1648541841-0-150; uid=707752; email=344267112%40qq.com; key=1d0f52dbcb22dd167724a38f71d44723c5310f41a7cc1; ip=af6dbff282f3db3bfe384eeb16787877; expire_in=1651306713"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
